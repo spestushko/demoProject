@@ -2,8 +2,6 @@ machine:
   timezone: America/New_York
   node:
     version: 7.4.0
-  npm:
-    version: 4.0.5
 
 dependencies:
   override:
