@@ -4,7 +4,8 @@ machine:
     version: 7.4.0
 
 dependencies:
+  pre:
+    - npm install npm@latest -g # Should fix bug in ng test
+    - npm install angular-cli@latest -g
   override:
-    - npm install
-    - npm install -g @angular/cli
     - ng build
