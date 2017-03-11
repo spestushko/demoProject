@@ -10,3 +10,7 @@ dependencies:
     - npm install
   override:
     - ng build
+
+test:
+  override:
+    - npm run test
