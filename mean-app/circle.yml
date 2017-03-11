@@ -1,0 +1,9 @@
+machine:
+  timezone: America/New_York
+  node:
+    version: 4.0.0
+
+dependencies:
+  override:
+    - npm install
+    - ng build
