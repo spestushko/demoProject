@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "compileOnSave":false,
     "baseUrl": "",
     "declaration": false,
     "emitDecoratorMetadata": true,
