@@ -3,6 +3,8 @@
 import { TestBed, async, inject } from '@angular/core/testing';
 import { PostsService } from './posts.service';
 
+import { RouterTestingModule } from '@angular/router/testing';
+
 describe('PostsService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
