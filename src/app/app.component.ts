@@ -8,4 +8,5 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'Home page';
+  test  = 'someName';
 }
