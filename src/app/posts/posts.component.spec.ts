@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { PostsComponent } from './posts.component';
+import { HttpModule } from '@angular/http';
 
 describe('PostsComponent', () => {
   let component: PostsComponent;
@@ -11,7 +12,8 @@ describe('PostsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PostsComponent ]
+      declarations: [ PostsComponent ],
+      imports: [ HttpModule ]
     })
     .compileComponents();
   }));
